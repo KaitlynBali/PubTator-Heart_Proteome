@@ -1,1 +1,1 @@
-# PubTator-Heart_Proteome
+# PubTator_Heart_Proteome
