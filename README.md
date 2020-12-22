@@ -1,8 +1,10 @@
 # PubTator_Heart_Proteome
 
-I am a second year undergraduate student studying at the University of California, Los Angeles. I am a part of the UCLA Integrated Data Science Training in Cardiovascular Medicine Program under the mentorship of Dr. Peipei Ping and Dr. Harry Caufield.  
-
+## Project Goal
 My goal in this fall quarter project was to discover if there were any shortcomings associated with PubTator Central and its method in identifying cardiac proteins present in scientific literature. 
+
+## Who I am
+I am a second year undergraduate student studying at the University of California, Los Angeles. I am a part of the UCLA Integrated Data Science Training in Cardiovascular Medicine Program under the mentorship of Dr. Peipei Ping and Dr. Harry Caufield.  
 
 Dr. Caufield had already provided me with the code that essentially obtained PubTator annotations for a sample of abstracts from PubMed and full-texts from PubMed Central pertaining to the human heart. The name of the file that contains the PubMed abstracts is "cardiac_absts.txt", and its PubTator annotations file name is "cardiac_absts_pubtator_annotations.xml". The name of the file that cotains the PubMed full-texts is "cardiac_fulltexts.xml", and its PubTator annotations filename is "cardiac_fulltexts_pubtator_annotations.xml". Referencing small portions of the annotation files allowed me to quickly check to see if my methods for my next tasks were working correctly.
 
@@ -14,4 +16,5 @@ To obtain this new list, I first searched for "The Human Protein Atlas" on my we
 
 The last part of this project includes simple code that I wrote to find the intersection of The Human Protein Atlas gene ID list with the list of gene IDs from the abstract annotations, and the intersection of The Human Protein gene IDs list with the list of gene IDs from the full-text annotations. This is the information I needed to obtain to perform my analysis. 
 
+## Requirements
 BioPython was installed in this project. Its Entrez and Medline packages were used. The xml.dom.minidom module, xml.etree.ElementTreem module, csv module, and Python's request package were all also imported. One must also remember to include their own email address in the 10th line of code: this enables NCBI to contact the user if something does not occur correctly. 
